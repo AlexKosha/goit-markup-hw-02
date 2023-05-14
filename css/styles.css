@@ -1,0 +1,209 @@
+:root {
+  --link-focused: #4d5ae5;
+  --navigate-text: #2e2f42;
+  --default-text: #434455;
+  --text-white-color: #ffffff;
+  --active-color: #e7e9fc;
+  --light-mode-background: #f4f4fd;
+  --button-color: #404bbf;
+}
+body {
+  color: var(--default-text);
+  background-color: var(--default-background);
+  font-family: "Roboto", sans-serif;
+}
+
+.web-link {
+  text-transform: uppercase;
+  color: var(--link-focused);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.16;
+}
+
+.web-link:active {
+  color: var(--active-color);
+}
+
+.accent {
+  color: var(--navigate-text);
+}
+
+.web-link .accent:hover,
+.web-link .accent:focus {
+  color: var(--link-focused);
+}
+
+.accent:active {
+  color: var(--active-color);
+}
+
+.page-nav {
+  list-style-type: none;
+}
+
+.page-nav .link {
+  text-decoration: none;
+  color: var(--navigate-text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: var(--link-focused);
+}
+
+.page-nav .link:active {
+  color: var(--active-color);
+}
+
+.page-address {
+  list-style-type: none;
+}
+
+.page-address .link {
+  text-decoration: none;
+  color: var(--default-text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-address .link:hover,
+.page-address .link:focus {
+  color: var(--link-focused);
+}
+
+.page-address .link:active {
+  color: var(--active-color);
+}
+
+.page {
+  background-color: var(--navigate-text);
+}
+
+.page-title {
+  font-size: 56px;
+  line-height: 1.2;
+  width: 496px;
+  color: var(--text-white-color);
+}
+
+.page-button {
+  cursor: pointer;
+  color: var(--link-focused);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.qualities-list {
+  list-style-type: none;
+}
+
+.list-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navigate-text);
+}
+
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navigate-text);
+}
+
+.device-list {
+  list-style-type: none;
+}
+
+.device-img {
+  border: 1px solid var(--active-color);
+}
+
+.team-list {
+  list-style-type: none;
+  background-color: var(--light-mode-background);
+}
+
+.team-item {
+  background-color: var(--text-white-color);
+}
+
+.name-title {
+  color: var(--navigate-text);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.name-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-footer {
+  background-color: var(--navigate-text);
+}
+
+.footer-accent {
+  color: var(--light-mode-background);
+}
+
+.footer-accent:hover,
+.footer-accent:focus {
+  color: var(--link-focused);
+}
+
+.footer-accent:active {
+  color: var(--active-color);
+}
+
+.footer-text {
+  color: var(--light-mode-background);
+  font-size: 16px;
+  line-height: 1.5;
+  width: 264px;
+}
+
+.portfolio-list {
+  list-style-type: none;
+}
+
+.list-button {
+  cursor: pointer;
+  color: var(--link-focused);
+  background-color: var(--light-mode-background);
+  border: 1px solid var(--active-color);
+}
+
+.list-button:hover {
+  cursor: pointer;
+  background-color: var(--button-color);
+  color: var(--text-white-color);
+  font-size: 16px;
+  line-height: 1.5px;
+}
+
+.oppor-list {
+  list-style-type: none;
+}
+
+.oppor-item {
+  background-color: var(--text-white-color);
+  border: 1px solid var(--active-color);
+}
+
+.oppor-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navigate-text);
+}
+
+.oppor-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
