@@ -24,6 +24,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.logo.link {
+  text-decoration: none;
+}
+
 .logo:active {
   color: var(--active-color);
 }
@@ -56,7 +60,7 @@ body {
 
 .list .link:hover,
 .list .link:focus {
-  color: var(--link-focused);
+  color: var(--button-color);
 }
 
 .list .link:active {
@@ -71,19 +75,19 @@ body {
   list-style-type: none;
 }
 
-.list .link-mail {
+/* .list .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--default-text);
-}
+} */
 
-.list .link-mail.link {
+.list .link {
   text-decoration: none;
 }
 
-.list .link-mail.link:hover,
-.list .link-mail.link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--button-color);
 }
 
@@ -101,7 +105,7 @@ body {
 }
 
 .page-button {
-  font-family: "roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -165,6 +169,7 @@ body {
 }
 
 .name-title {
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -219,7 +224,8 @@ body {
   border: 1px solid var(--active-color);
 }
 
-.list-button:hover {
+.list-button:hover,
+.list-button:focus {
   cursor: pointer;
   background-color: var(--button-color);
   color: var(--text-white-color);
