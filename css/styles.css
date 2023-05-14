@@ -9,19 +9,22 @@
 }
 body {
   color: var(--default-text);
-  background-color: var(--default-background);
+  background-color: var(--text-white-color);
   font-family: "Roboto", sans-serif;
 }
 
-.web-link {
+.logo {
+  font-family: "raleway", sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   color: var(--link-focused);
   text-decoration: none;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.web-link:active {
+.logo:active {
   color: var(--active-color);
 }
 
@@ -29,53 +32,59 @@ body {
   color: var(--navigate-text);
 }
 
-.web-link .accent:hover,
-.web-link .accent:focus {
-  color: var(--link-focused);
+.logo .accent:hover,
+.logo .accent:focus {
+  color: var(--button-color);
 }
 
 .accent:active {
   color: var(--active-color);
 }
 
-.page-nav {
+.list {
   list-style-type: none;
 }
 
-.page-nav .link {
+.list .link {
   text-decoration: none;
   color: var(--navigate-text);
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
-.page-nav .link:hover,
-.page-nav .link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--link-focused);
 }
 
-.page-nav .link:active {
+.list .link:active {
   color: var(--active-color);
 }
 
-.page-address {
+.contacts {
+  font-style: normal;
+}
+
+.list {
   list-style-type: none;
 }
 
-.page-address .link {
-  text-decoration: none;
-  color: var(--default-text);
+.list .link-mail {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--default-text);
 }
 
-.page-address .link:hover,
-.page-address .link:focus {
-  color: var(--link-focused);
+.list .link-mail.link {
+  text-decoration: none;
 }
 
-.page-address .link:active {
-  color: var(--active-color);
+.list .link-mail.link:hover,
+.list .link-mail.link:focus {
+  color: var(--button-color);
 }
 
 .page {
@@ -84,40 +93,49 @@ body {
 
 .page-title {
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
   width: 496px;
   color: var(--text-white-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .page-button {
+  font-family: "roboto" sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--link-focused);
+  background-color: var(--link-focused);
+  color: var(--text-white-color);
   font-size: 16px;
   line-height: 1.5;
 }
 
-.qualities-list {
+.page-button:hover,
+.page-button:focus {
+  background-color: var(--button-color);
+  color: var(--text-white-color);
+}
+
+.list {
   list-style-type: none;
 }
 
 .list-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navigate-text);
+  letter-spacing: 0.02em;
 }
 
 .list-text {
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  color: var(--navigate-text);
-}
-
-.device-list {
+.list {
   list-style-type: none;
 }
 
@@ -125,9 +143,21 @@ body {
   border: 1px solid var(--active-color);
 }
 
-.team-list {
-  list-style-type: none;
+.section-team {
   background-color: var(--light-mode-background);
+}
+
+.section-title {
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navigate-text);
+}
+
+.list {
+  list-style-type: none;
 }
 
 .team-item {
@@ -135,12 +165,16 @@ body {
 }
 
 .name-title {
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navigate-text);
   font-size: 20px;
   line-height: 1.2;
 }
 
 .name-text {
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -169,11 +203,16 @@ body {
   width: 264px;
 }
 
-.portfolio-list {
+.list {
   list-style-type: none;
 }
 
 .list-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--link-focused);
   background-color: var(--light-mode-background);
@@ -188,22 +227,26 @@ body {
   line-height: 1.5px;
 }
 
-.oppor-list {
+.list {
   list-style-type: none;
 }
 
-.oppor-item {
+.scope-item {
   background-color: var(--text-white-color);
   border: 1px solid var(--active-color);
 }
 
-.oppor-title {
+.scope-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navigate-text);
 }
 
-.oppor-text {
+.scope-text {
+  letter-spacing: 0.02em;
+  color: var(--default-text);
   font-size: 16px;
   line-height: 1.5;
 }
