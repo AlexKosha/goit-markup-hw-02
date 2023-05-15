@@ -50,7 +50,6 @@ body {
 }
 
 .link-contacts {
-  text-decoration: none;
   color: var(--default-text);
   font-size: 16px;
   line-height: 1.5;
@@ -58,8 +57,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.list .link-contacts .link:hover,
-.list .link:focus {
+.link-contacts.link {
+  text-decoration: none;
+}
+
+.list .link-contacts.link:hover,
+.list .link-contacts.link:focus {
   color: var(--button-color);
 }
 
@@ -74,13 +77,6 @@ body {
 .list {
   list-style-type: none;
 }
-
-/* .list .link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--default-text);
-} */
 
 .list .link {
   text-decoration: none;
@@ -121,10 +117,6 @@ body {
   color: var(--text-white-color);
 }
 
-.list {
-  list-style-type: none;
-}
-
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -137,10 +129,6 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
-}
-
-.list {
-  list-style-type: none;
 }
 
 .device-img {
@@ -158,10 +146,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   color: var(--navigate-text);
-}
-
-.list {
-  list-style-type: none;
 }
 
 .team-item {
@@ -208,10 +192,6 @@ body {
   width: 264px;
 }
 
-.list {
-  list-style-type: none;
-}
-
 .list-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -231,10 +211,6 @@ body {
   color: var(--text-white-color);
   font-size: 16px;
   line-height: 1.5px;
-}
-
-.list {
-  list-style-type: none;
 }
 
 .scope-item {
