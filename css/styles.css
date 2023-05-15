@@ -49,6 +49,23 @@ body {
   list-style-type: none;
 }
 
+.list .link {
+  color: var(--navigate-text);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: var(--button-color);
+}
+
+.contacts {
+  font-style: normal;
+}
+
 .link-contacts {
   color: var(--default-text);
   font-size: 16px;
@@ -68,23 +85,6 @@ body {
 
 .list .link:active {
   color: var(--active-color);
-}
-
-.contacts {
-  font-style: normal;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.list .link {
-  text-decoration: none;
-}
-
-.list .link:hover,
-.list .link:focus {
-  color: var(--button-color);
 }
 
 .page {
