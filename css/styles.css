@@ -50,7 +50,7 @@ body {
 }
 
 .list .link {
-  color: var(--default-text);
+  color: var(--navigate-text);
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
@@ -67,7 +67,6 @@ body {
 }
 
 .link-contacts {
-  color: var(--default-text);
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -75,6 +74,7 @@ body {
 }
 
 .link-contacts.link {
+  color: var(--default-text);
   text-decoration: none;
 }
 
