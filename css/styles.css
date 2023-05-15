@@ -50,11 +50,14 @@ body {
 }
 
 .list .link {
-  color: var(--navigate-text);
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
   text-decoration: none;
+}
+
+.list .link.link1 {
+  color: var(--navigate-text);
 }
 
 .list .link:hover,
