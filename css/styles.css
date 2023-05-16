@@ -41,10 +41,10 @@ body {
   color: var(--active-color);
 }
 
-.accent:hover,
+/* .accent:hover,
 .accent:focus {
   color: var(--button-color);
-}
+} */
 
 .list {
   list-style-type: none;
