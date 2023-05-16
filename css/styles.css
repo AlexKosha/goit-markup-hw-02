@@ -36,15 +36,14 @@ body {
   color: var(--navigate-text);
 }
 
-.accent:hover,
-.accent:focus {
-  color: var(--button-color);
-}
-
 .accent:active {
   color: var(--active-color);
 }
 
+.accent:hover,
+.accent:focus {
+  color: var(--button-color);
+}
 .list {
   list-style-type: none;
 }
