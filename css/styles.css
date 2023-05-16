@@ -7,6 +7,7 @@
   --light-mode-background: #f4f4fd;
   --button-color: #404bbf;
 }
+
 body {
   color: var(--default-text);
   background-color: var(--text-white-color);
@@ -56,12 +57,12 @@ body {
   text-decoration: none;
 }
 
-.list .link.link-first {
+/* .list .link.link-first {
   color: var(--navigate-text);
-}
+} */
 
-.list .link.link-first:hover,
-.list .link.link-first:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--button-color);
 }
 
