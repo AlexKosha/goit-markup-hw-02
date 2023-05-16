@@ -36,8 +36,8 @@ body {
   color: var(--navigate-text);
 }
 
-.logo .accent:hover,
-.logo .accent:focus {
+.accent:hover,
+.accent:focus {
   color: var(--button-color);
 }
 
@@ -56,7 +56,7 @@ body {
   text-decoration: none;
 }
 
-.list .link.link1 {
+.list .link.link-first {
   color: var(--navigate-text);
 }
 
@@ -72,7 +72,7 @@ body {
 .link-contacts {
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
@@ -97,7 +97,6 @@ body {
 .page-title {
   font-size: 56px;
   line-height: 1.07;
-  width: 496px;
   color: var(--text-white-color);
   text-align: center;
   letter-spacing: 0.02em;
@@ -209,16 +208,12 @@ body {
 
 .list-button:hover,
 .list-button:focus {
-  cursor: pointer;
   background-color: var(--button-color);
   color: var(--text-white-color);
-  font-size: 16px;
-  line-height: 1.5px;
 }
 
 .scope-item {
   background-color: var(--text-white-color);
-  border: 1px solid var(--active-color);
 }
 
 .scope-title {
