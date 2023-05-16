@@ -57,12 +57,12 @@ body {
   text-decoration: none;
 }
 
-/* .list .link.link-first {
+.list .link.link-first {
   color: var(--navigate-text);
-} */
+}
 
-.list .link:hover,
-.list .link:focus {
+.list .link.link-first:hover,
+.list .link.link-first:focus {
   color: var(--button-color);
 }
 
