@@ -36,6 +36,11 @@ body {
   color: var(--navigate-text);
 }
 
+.accent:hover,
+.accent:focus {
+  color: var(--button-color);
+}
+
 .accent:active {
   color: var(--active-color);
 }
