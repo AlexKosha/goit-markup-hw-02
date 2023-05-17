@@ -77,13 +77,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.link-contacts.link {
+.link-contacts.address {
   color: var(--default-text);
   text-decoration: none;
 }
 
-.list .link-contacts.link:hover,
-.list .link-contacts.link:focus {
+.list .link-contacts.address:hover,
+.list .link-contacts.address:focus {
   color: var(--button-color);
 }
 
